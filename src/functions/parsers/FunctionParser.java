@@ -38,8 +38,8 @@ public class FunctionParser {
 
         funcNamesMap.put("arccos", new Acos());//добавление в словарь, связвающий названия функций с классами функций
         funcNamesMap.put("arcsin", new Asin());
-        funcNamesMap.put("arcctg", new Acot());
-        funcNamesMap.put("arctg", new Atan());
+        funcNamesMap.put("arccot", new Acot());
+        funcNamesMap.put("arctan", new Atan());
         funcNamesMap.put("cos", new Cos());
         funcNamesMap.put("sin", new Sin());
         funcNamesMap.put("tg", new Tan());

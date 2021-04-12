@@ -2,9 +2,11 @@ import functions.parsers.FunctionParser;
 
 public class Main {
     public static void main(String[] args)  {
-        FunctionParser a = new FunctionParser("1+4*2^0", 'x');
+        String s = "arccot(x)";
+
+        FunctionParser a = new FunctionParser(s, 'x');
+        System.out.println(s);
         System.out.println(a.parseFunction().getValueAt(0));
-        System.out.println(a.parseFunction().toString());
     }
 
 }
